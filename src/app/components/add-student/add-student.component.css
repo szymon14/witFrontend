@@ -1,0 +1,51 @@
+/* Center the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  /* Style for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  /* Style for the labels */
+  label {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Style for the inputs and selects */
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 2px solid pink; /* Pink border for inputs and selects */
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
